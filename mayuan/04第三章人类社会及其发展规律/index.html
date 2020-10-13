@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>4 - 马原 - 慕课到珈</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">马原 - 慕课到珈</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../01%E5%AF%BC%E8%AE%BA/" class="nav-link">1</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../02%E7%AC%AC%E4%B8%80%E7%AB%A0%E4%B8%96%E7%95%8C%E7%9A%84%E7%89%A9%E8%B4%A8%E6%80%A7%E5%8F%8A%E5%8F%91%E5%B1%95%E8%A7%84%E5%BE%8B/" class="nav-link">2</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../03%E7%AC%AC%E4%BA%8C%E7%AB%A0%E8%AE%A4%E8%AF%86%E7%9A%84%E6%9C%AC%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%8F%91%E5%B1%95%E8%A7%84%E5%BE%8B/" class="nav-link">3</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">4</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../05%E7%AC%AC%E5%9B%9B%E7%AB%A0%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8%E5%8F%8A%E8%A7%84%E5%BE%8B/" class="nav-link">5</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../06%E7%AC%AC%E4%BA%94%E7%AB%A0%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%85%B6%E8%B6%8B%E5%8A%BF/" class="nav-link">6</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../07%E7%AC%AC%E5%85%AD%E7%AB%A0%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%8A%E5%85%B6%E8%A7%84%E5%BE%8B/" class="nav-link">7</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../08%E7%AC%AC%E4%B8%83%E7%AB%A0%E5%85%B1%E4%BA%A7%E4%B8%BB%E4%B9%89%E5%B4%87%E9%AB%98%E7%90%86%E6%83%B3%E5%8F%8A%E5%85%B6%E6%9C%80%E7%BB%88%E5%AE%9E%E7%8E%B0/" class="nav-link">08</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../03%E7%AC%AC%E4%BA%8C%E7%AB%A0%E8%AE%A4%E8%AF%86%E7%9A%84%E6%9C%AC%E8%B4%A8%E5%8F%8A%E5%85%B6%E5%8F%91%E5%B1%95%E8%A7%84%E5%BE%8B/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../05%E7%AC%AC%E5%9B%9B%E7%AB%A0%E8%B5%84%E6%9C%AC%E4%B8%BB%E4%B9%89%E7%9A%84%E6%9C%AC%E8%B4%A8%E5%8F%8A%E8%A7%84%E5%BE%8B/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#04" class="nav-link">04第三章人类社会及其发展规律</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="04">04第三章人类社会及其发展规律</h1>
+<p>单选(2分)与社会革命相比，改革（）    </p>
+<pre><code>* A.是同一种社会形态发展过程中的量变和部分质变，是推动社会发展的又一重要动力   
+* B.所花的代价最少，是解决社会矛盾的一种最理想的万能钥匙
+* C.可以在任何条件下适用，可以起到革命所不能起的作用
+* D.所花的代价小，因此没有必要进行革命，改革足以替代任何革命
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)自然存在与社会存在区分和统一的基础是（）    </p>
+<pre><code>* A.自然地理环境 
+* B.劳动实践
+* C.人口因素
+* D.人的自然属性
+</code></pre>
+<p>正确答案：B    </p>
+<p>单选(2分)社会发展的根本推动力是（）    </p>
+<pre><code>* A.生产力
+* B.创新
+* C.社会革命
+* D.科学技术
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)社会意识的相对独立性突出表现在（）    </p>
+<pre><code>* A.社会意识对社会存在具有能动的反作用
+* B.社会意识各自具有自己的历史继承性
+* C.社会文化之间的互补性和互动性
+* D.社会意识与社会存在发展的不完全同步性和不平衡性
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)判断时代变革的客观依据是 （）    </p>
+<pre><code>* A.生产关系
+* B.科学技术
+* C.社会意识
+* D.生产力与生产关系的矛盾运动规律
+</code></pre>
+<p>正确答案：D    </p>
+<p>单选(2分)所谓社会形态是一个自然历史过程，是指  （）    </p>
+<pre><code>* A.社会发展和自然界的演化是毫无区别的物质过程
+* B.社会发展和自然界一样是一个有规律的辩证发展过程
+* C.人类活动和动物界的活动是一样的
+* D.社会发展和自然界一样是自发的演化过程
+</code></pre>
+<p>正确答案：B    </p>
+<p>单选(2分)关于生产力、生产关系（即经济基础）和上层建筑三者之间关系的表述不正确的是（）    </p>
+<pre><code>* A.生产力通过生产关系这个中介作用于上层建筑，反过来，上层建筑也通过生产关系反作用于生产力
+* B.生产力、生产关系和上层建筑三者之间的矛盾在阶级社会往往通过阶层或阶级矛盾或不同集团之间的利益矛盾表现出来
+* C.上层建筑对生产力的反作用始终起促进作用，改革也是生产力，就证明了这一点
+* D.生产力与生产关系之间的矛盾是更为根本的社会矛盾，经济基础（即生产关系）与上层建筑之间的矛盾受制于前两者的矛盾
+</code></pre>
+<p>正确答案：C    </p>
+<p>单选(2分)生产力体现的是（）    </p>
+<pre><code>* A.物与物之间的关系
+* B.人与自然界的关系
+* C.人与人的关系
+* D.人与生产工具之间的关系
+</code></pre>
+<p>正确答案：B    </p>
+<p>单选(2分)生产关系体现的是 （）    </p>
+<pre><code>* A.人与生产资料之间的关系
+* B.人与人之间的物质利益关系
+* C.人与自然界之间的关系
+* D.物与物之间的关系
+</code></pre>
+<p>正确答案：B    </p>
+<p>单选(2分)马克思主义的历史唯物论是决定论的，这说明（）    </p>
+<pre><code>* A.人类社会的发展具有客观必然性
+* B.它是一种机械唯物论
+* C.它不承认人类主体的能动选择性
+* D.它是一种经济决定论
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)生产关系或经济基础的变化，不仅取决于生产力的变化，而且受制于社会意识形态和政治法律制度即上层建筑的变化。这句话是（）    </p>
+<pre><code>* A.历史唯物主义的观点
+* B.主观唯心主义的观点
+* C.历史唯心主义的观点
+* D.机械唯物主义的观点
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)历史唯物主义与历史学的关系是（）    </p>
+<pre><code>* A.指导与被指导的关系
+* B.整体和部分的关系 
+* C.抽象和具体的关系
+* D.两门的没有任何关系的并列学科
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)“时势造英雄”，这在哲学上说明了（）    </p>
+<pre><code>* A.英雄的出现及其作用要受社会条件的制约
+* B.英雄人物的出现是必然的
+* C.英雄人物的出现完全是上天的安排 
+* D.英雄人物的出现是他的命运好
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)下列关于国家的说法不符合马克思主义观点的是（）    </p>
+<pre><code>* A.国家是一个历史概念，它是人类社会发展到一定阶段的产物
+* B.只有阶级消亡了，国家才会消亡，但这将是一个长期的历史过程
+* C.国家是通过社会契约形成的，或是通过“君权神授”得来的
+* D.国家的实质是一个阶级统治另一个阶级的暴力工具
+</code></pre>
+<p>正确答案：C    </p>
+<p>单选(2分)关于阶级斗争作用的说法不正确的是 （）    </p>
+<pre><code>* A.阶级斗争不论在什么条件都始终是社会发展的推动力，要天天讲
+* B.阶级斗争是阶级社会发展的直接动力
+* C.阶级斗争的作用要社会条件的制约
+* D.阶级斗争的作用既可以发生在社会形态的更替中，又可发生在同一社会形态的量变过程中
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)下列对于国体的描述不正确的有（）    </p>
+<pre><code>* A.国体指国家的阶级本质，亦即国家的性质
+* B.国体决定政体，国体是内容，政体是形式
+* C.人民代表大会制度是我国的国体
+* D.国体是指社会各阶级在国家中的地位，表明谁是统治者，谁是盟友，谁是敌人
+</code></pre>
+<p>正确答案：C    </p>
+<p>单选(2分)不属于党的群众观点的是（）    </p>
+<pre><code>* A.一切听从党的领导
+* B.全心全意为人民服务
+* C.相信人民群众自己解放自己
+* D.一切向人民群众负责
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)关于观念上层建筑和政治上层建筑两者关系的描述不正确的是（）    </p>
+<pre><code>* A.在整个上层建筑中，政治上层建筑居于主导地位
+* B.政治上层建筑可以反作用于观念上层建筑，并要求观念上层建筑与自己相适应
+* C.政治上层建筑是在观念上层建筑的指导下建立的，是统治阶级意志的体现
+* D.政治上层建筑决定观念上层建筑
+</code></pre>
+<p>正确答案：D    </p>
+<p>单选(2分)关于社会的物质生活条件所起作用的地位的表述正确的选项是（）    </p>
+<pre><code>* A.社会生产方式是最具决定性的因素
+* B.自然条件和人口因素两个都是最重要的，因为它们都是基本前提条件
+* C.人口因素是最重要的，因为人力资源是第一资源
+* D.自然条件是最基本最重要的
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)社会形态是（）    </p>
+<pre><code>* A.生产力与生产关系的统一
+* B.社会存在与社会意识的统一
+* C.经济基础和上层建筑的统一
+* D.经济形态和意识形态的统一
+</code></pre>
+<p>正确答案：C    </p>
+<p>单选(2分)上层建筑是指（）    </p>
+<pre><code>* A.社会意识形态
+* B.建立在一定经济基础之上的政治法律制度设施组织和相应的社会意识形态
+* C.政治法律制度
+* D.国家政权
+</code></pre>
+<p>正确答案：B    </p>
+<p>单选(2分)关于社会基本矛盾和社会主要矛盾的表述不正确的是（）    </p>
+<pre><code>* A.社会主要矛盾和社会基本矛盾可以完全一致
+* B.社会基本矛盾是贯穿于人类社会始终的矛盾
+* C.社会主要矛盾是社会基本矛盾的具体体现
+* D.社会主要矛盾和社会基本矛盾不是同一个概念，也不是同层次的矛盾
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)最早发现和提出阶级和阶级斗争学说的人是 （）    </p>
+<pre><code>* A.与马克思和恩格斯同时代的美国民族学家、历史学家L.H.摩尔根  
+* B.法国的资产阶级历史学家和经济学家
+* C.马克思和恩格斯 
+* D.德国古典哲学家
+</code></pre>
+<p>正确答案：B    </p>
+<p>单选(2分)在意识形态中处于核心地位的是哪一项（）    </p>
+<pre><code>* A.艺术
+* B.宗教
+* C.政治法律思想
+* D.科学
+</code></pre>
+<p>正确答案：C    </p>
+<p>单选(2分)社会存在又称社会物质生活条件，下列不属于社会存在的选项是（）    </p>
+<pre><code>* A.科学技术
+* B.人口因素
+* C.物质生产方式
+* D.地理环境
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)党的十九大指出，中国特色社会主义进入了新时代，我国社会主要矛盾已经转化为（）    </p>
+<pre><code>* A.上层建筑同经济基础之间的矛盾
+* B.生产力同生产关系之间的矛盾
+* C.人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾  
+* D.人民日益增长的物质文化生活需要同落后的社会生产之间的矛盾
+</code></pre>
+<p>正确答案：C    </p>
+<p>单选(2分)历史观的基本问题是（）    </p>
+<pre><code>* A.社会存在与社会意识的关系问题
+* B.如何看待阶级斗争的作用问题
+* C.英雄人物和普通人物的关系问题
+* D.生产力和生产关系的问题
+</code></pre>
+<p>正确答案：A    </p>
+<p>单选(2分)生产力是一个复杂的系统，在它的构成要素中最活跃的是哪一个（）    </p>
+<pre><code>* A.生产资料
+* B.劳动对象
+* C.生产工具
+* D.劳动者
+</code></pre>
+<p>正确答案：D    </p>
+<p>单选(2分)资本主义制度是在欧洲而并非在封建制度高度发展完善的中国等东方国家首先取得胜利，社会主义制度首先是在俄中等经济文化相对落后国家而并非在欧美等较发达的资本主义国家获得成功。这说明了（）    </p>
+<pre><code>* A.社会形态的更替完全是人们主动选择的结果，至多有机遇或运气的成份
+* B.生产力不能决定生产关系，生产关系也不决定上层建筑
+* C.社会形态的更替具有前进性、曲折性和跨越性的辩证特点
+* D.社会形态更替的规律性完全是人们主观臆想的结果
+</code></pre>
+<p>正确答案：C    </p>
+<p>多选(3分)下列属于社会意识的有 （）    </p>
+<pre><code>* A.情感
+* B.习俗
+* C.人力资源
+* D.数学
+</code></pre>
+<p>正确答案：ABD    </p>
+<p>多选(3分)关于科技革命的表述是正确的有（）    </p>
+<pre><code>* A.是“最高意义上的革命”。
+* B.科技革命的作用受社会制度的影响
+* C.能引起生产方式、生活方式和思想方式的变化 
+* D.科技革命将最终取代社会革命
+</code></pre>
+<p>正确答案：ABC    </p>
+<p>多选(3分) “人们自己创造自己的历史，但是他们并不是随心所欲地创造，并不是在他们自己选定的条件下创造，而是在直接碰到的、既定的、从过去承继下来的条件下创造。”（《马克思恩格斯选集》第1卷，人民出版社，1995年第2版，第585页）。这段话蕴含和体现了哪些观点（）    </p>
+<pre><code>* A.人民群众创造历史的活动要受社会历史条件的制约
+* B.社会主体在创造历史的活动中，不仅有能动性，而且有受动性
+* C.人是社会的主体
+* D.这些社会历史条件具有客观性
+</code></pre>
+<p>正确答案：ABCD    </p>
+<p>多选(3分) “按照他们所受的教育和个人的地位来说，他们可能和小店主相隔天壤。使他们成为小资产者代表人物的是下面这样一种情况:他们的思想不能越出小资产者的生活所越不出的界限，因此他们在理论上得出的任务和解决办法，也就是小资产者的物质利益和社会地位在实际生活上引导他们得出的任务和解决办法。一般说来，一个阶级的政治代表和著作代表同他们所代表的阶级之间的关系，都是这样。”（《马克思恩格斯选集》第1卷，人民出版社，1995年第2版，第614页）。这段话蕴含和体现了哪些观点（）    </p>
+<pre><code>* A.律师家庭出身的马克思和资本家出身的恩格斯提出的马克思主义理论代表了工人阶级的利益，所以不能说人们的生活决定人们的意识
+* B.一个理论的阶级属性可以和创立者本人实际的阶级出身不一致
+* C.马克思和恩格斯的阶级出身与他们理论所代表的阶级属性不一致，所以对历史人物的所谓阶级分析方法是不适用的
+* D.社会存在决定社会意识，是人们的生活决定人们的意识
+</code></pre>
+<p>正确答案：BD    </p>
+<p>多选(3分)关于阶级和阶级斗争表述正确的有 （）    </p>
+<pre><code>* A.阶级斗争是阶级社会客观存在的必然现象，并贯穿于阶级社会的全部发展过程
+* B.阶级斗争是阶级利益根本冲突的对抗阶级之间的对立和斗争
+* C.阶级是一个经济范畴
+* D.阶级是一个历史范畴
+</code></pre>
+<p>正确答案：ABCD    </p>
+<p>多选(3分)关于人民群众的说法是正确的有（）    </p>
+<pre><code>* A.既然人民群众是历史的创造者，那就是承认了人民群众可以随心所欲地创造历史
+* B.人民群众创造历史的作用是与社会基本矛盾运动推动社会前进的过程相一致的
+* C.人民群众在创造历史中起决定性作用的说法与生产力是社会发展的根本动力的说法是相冲突的
+* D.人民群众是社会历史实践的主体，在创造历史中起决定性的作用
+</code></pre>
+<p>正确答案：BD    </p>
+<p>多选(3分)关于人的本质的观点正确的有（）    </p>
+<pre><code>* A.人的本质不是单个人所固有的抽象物
+* B.人的本质是理性
+* C.人的本质属性在于其社会性
+* D.人的本质是自由，共产主义社会就是自由人的联合体
+</code></pre>
+<p>正确答案：AC    </p>
+<p>多选(3分)关于个人在历史中所起作用的说法正确的有 （）    </p>
+<pre><code>* A.个人即使参与创造历史也要遵循社会规律
+* B.个人可以创造他们个人的历史，但是不能简单地创造人类社会的历史，他们离不开人民群众的支持，个人的历史不等于社会整体的历史
+* C.英雄人物和人民群众一起共同创造了历史，人民群众离开了英雄人物将一事无成
+* D.一部中国历史，就是历代帝王将相的历史，是他们创造了整个中国的历史
+</code></pre>
+<p>正确答案：AB    </p>
+<p>多选(3分)“我们自己创造着我们的历史，但是第一，我们是在十分确定的前提和条件下创造的。其中经济的前提和条件归根到底是决定性的。但是政治等等的前提和条件，甚至那萦回于人们头脑中的传统，也起着一定的作用，虽然不是决定性的作用。”（《马克思恩格斯选集》第1卷，人民出版社，1995年第2版，第696页） 这段话说明 （）    </p>
+<pre><code>* A.政治原因可以是某些具体事件的直接原因
+* B.经济原因可以说明社会生活中的一切现象
+* C.经济原因是归根结底的原因，但不是唯一的原因
+* D.传统思想因素可以是某些具体事件的直接原因
+</code></pre>
+<p>正确答案：ACD    </p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
